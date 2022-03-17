@@ -4,7 +4,7 @@ if plr:IsInGroup("6420377") then
      else
 setclipboard(tostring("https://www.roblox.com/groups/6420377/Very-Epiccccc#!/about"))
         wait(0.2)
-    plr:Kick("Please join the group (copied to clipboard)")
+    plr:Kick("Join The Group To use copied to clipboard")
 end
 
 repeat task.wait() until game:IsLoaded()
@@ -125,7 +125,7 @@ function ATM()
         local num = math.random(3,7)
         game.StarterGui:SetCore("SendNotification", {
             Title = "NOTICE!";
-            Text = "Server hopping.." .. tostring(num);
+            Text = "Server hopping" .. tostring(num);
             Duration = num;
         })
         wait(num)
@@ -137,7 +137,7 @@ function ATM()
     end
 end
 game.StarterGui:SetCore("SendNotification",  {
-    Title = "Thanks for using";
+    Title = "Thanks for using!";
     Text = "Zackk#9491";
     Icon = "";
     Duration = 5;
@@ -195,7 +195,7 @@ spawn(function()
     end
 end)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Executing script please wait..";
+    Title = "Executing autofarm";
     Text = "Loaded!";
     Duration = 9e9;
 })
